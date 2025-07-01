@@ -30,7 +30,7 @@ public class Laptop {
         this.processor = processor;
     }
 
-    public void setProcessor(int ghz, String gen){
+    public void setProcessor(int ghz, String gen) {
         Processor processor1 = new Processor();
         processor1.setGen(gen);
         processor1.setGhz(ghz);
@@ -45,7 +45,7 @@ public class Laptop {
         this.ram = ram;
     }
 
-    public void setRam(int size, String gen){
+    public void setRam(int size, String gen) {
         RAM ram1 = new RAM();
         ram1.setGen(gen);
         ram1.setSize(size);

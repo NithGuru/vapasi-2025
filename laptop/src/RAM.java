@@ -1,6 +1,7 @@
 public class RAM {
     int size;
     String gen;
+
     public RAM(int size, String gen) {
         this.size = size;
         this.gen = gen;
