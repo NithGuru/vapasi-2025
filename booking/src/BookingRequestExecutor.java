@@ -11,14 +11,14 @@ public class BookingRequestExecutor {
         this.service = Executors.newFixedThreadPool(threadCount);
     }
 
-    public void executeRequest(ArrayList<BookingRequest> requests){
-        for(BookingRequest request: requests){
+    public void executeRequest(ArrayList<BookingRequest> requests) {
+        for (BookingRequest request : requests) {
             service.execute(request);
         }
         service.shutdown();
     }
 
-    public void closeExecutor(){
+    public void closeExecutor() {
         service.shutdown();
     }
 

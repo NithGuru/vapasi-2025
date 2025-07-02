@@ -4,6 +4,4 @@ public class BookingMain {
         BookingRequestExecutor requestExecutor = new BookingRequestExecutor(5);
         requestExecutor.executeRequest(generator.requests);
     }
-
-
 }

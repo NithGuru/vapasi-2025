@@ -8,7 +8,7 @@ public class BookingRequestGenerator {
         this.requestCount = requestCount;
         for (int i = 0; i < requestCount; i++) {
             BookingRequest request = new BookingRequest();
-            request.requestName = "Request "+ (i+1);
+            request.requestName = "Request " + (i + 1);
             requests.add(request);
         }
     }
